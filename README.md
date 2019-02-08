@@ -30,7 +30,10 @@ We can make a frequency distribution table showing how many tens, twenties, thir
 ## Creating Stem and Leaf Plots
 The downside of frequency distribution tables and histograms is that, while the frequency of each class is easy to see, the original data points have been lost. You can tell, for instance, that there must have been five listed values that were in the twenties, but there is no way to tell from the histogram what exactly those values might have been.
 
-On the other hand, you could make a stem-and-leaf plot for the same data as shown below:
+
+This is an important concept regarding statistics and distributions in general; they help us describe and understand a dataset from a high level, but with the statistics alone we cannot retrieve the full granularity of information present in the data itself. 
+
+On the other hand, stem-and-leaf and leaf plots are simply a (slightly) compressed representation of the data; the original data is still retrievable.
 
 
 ![](slplot1.svg)
@@ -49,8 +52,8 @@ Stem and leaf plots like above can be plotted and visualized in order to get a d
 
 Comparing this to the histogram we had before, now we can clearly see not only how many values are in a class, but also an insight into what those values are. Do keep in mind that due to a complete overlap, repeating values are shown as a single dot (two 23s and two 26s). 
 
-That's all there is to a stem-and-leaf plot.We just listed out how many entries we have in certain classes of numbers, and what those entries are. In the following lab, we shall move ahead and plot a stem and leaf graph (like the one above) , using a slightly more complex dataset. 
+That's all there is to a stem-and-leaf plot. We just listed out how many entries we have in certain classes of numbers, and what those entries are. In the following lab, we shall move ahead and plot a stem and leaf graph (like the one above), using a slightly more complex dataset. 
 
 ## Summary
 
-In this lesson, we learned about stem and leaf plots as a way to understand the distribution in a data set. We looked at how stem and leaf plots may provide with a better understanding into classes or groups of data, in terms of the values contained within. In the following lab, we shall see how to plot and stem and leaf plot using matplotlib. 
+In this lesson, we learned about stem and leaf plots as a way to understand the distribution in a data set. We looked at how stem and leaf plots can provide us with a better understanding into classes or groups of data, in terms of the values contained within. In the following lab, we shall see how to plot and stem and leaf plot using matplotlib. 
